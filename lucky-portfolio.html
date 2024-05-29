@@ -5,82 +5,124 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lucky Gupta-Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="./lucky.portfolio.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a4fc0c9cad.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="./lucky.portfolio.css">
 </head>
 
 <body>
     <header id="body-header">
         <nav>
+          <div class="dropdown-menu text-right">
+            <div class="bars">
+              <i class="fas fa-bars"></i>
+            </div>
+            <div class="dropdown-list nav-menu">
+              <ul class="no-list-style">
+                <li>
+                  <a href="#"> Home </a>
+                </li>
+                <li>
+                  <a href="#about"> About </a>
+                </li>
+                <li>
+                  <a href="#skills"> Skills </a>
+                </li>
+                <li>
+                  <a href="#experience">Experience</a>
+                </li>
+                <li>
+                  <a href="#education">Education</a>
+                </li>
+                <li>
+                  <a href="#projects">projects</a>
+                </li>
+                <li>
+                  <a href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+  
+          <ul class=" no-list-style horizontal-list text-center nav-menu " data-aos="fade-up" data-aos-duration="1000"
+          data-aos-easing="ease-in-out"  >
+            <li>
+              <a href="#"> Home </a>
+            </li>
+            <li>
+              <a href="#about"> About </a>
+            </li>
+            <li>
+              <a href="#skills"> Skills </a>
+            </li>
+            <li>
+              <a href="#experience">Experience</a>
+            </li>
+            <li>
+              <a href="#education">Education</a>
+            </li>
+            <li>
+              <a href="#projects">Projects</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li> 
             
-            <ul class="no-list-style horizontal-list text-center nav-menu">
+          </ul>
+        </nav>
+  
+        <div id="name-social-container">
+          <div class="text-center"  data-aos="fade-up"  
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out">
+            <h1 id="my-name">Lucky Gupta</h1>
+          </div>
+          <div>
+            <ul class="no-list-style horizontal-list text-center social-icons"  data-aos="fade-up"  
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out">
+              <li>
                 <li>
-                    <a href="#"> Home </a>
+                    <a href="https://www.linkedin.com/in/lucky-gupta-42b090130/">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
                 </li>
                 <li>
-                    <a href="#about"> About </a>
+                    <a href="https://stackoverflow.com/">
+                        <i class="fab fa-stack-overflow"></i>
+                    </a>
                 </li>
                 <li>
-                    <a href="#skills"> Skills </a>
+                    <a href="https://github.com/CoderLucky-Gupta">
+                        <i class="fab fa-github"></i>
+                    </a>
                 </li>
                 <li>
-                    <a href="#experience">Experience</a>
+                    <a href="https://www.facebook.com/lucky.gupta.3914207?mibextid=ZbWKwL">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
                 </li>
                 <li>
-                    <a href="#education">Education</a>
-                </li>
-                <li>
-                    <a href="#portfolio">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
+                    <a href="https://www.quora.com/profile/Lucky-Gupta-103">
+                        <i class="fab fa-quora"></i>
+                    </a>
                 </li>
             </ul>
-        </nav>
-
-        <div id="name-social-container">
-            <div class="text-center">
-                <h1 id="my-name">Lucky Gupta</h1>
-            </div>
-            <div>
-                <ul class="no-list-style horizontal-list text-center social-icons">
-                    <li>
-                        <a href="https://www.linkedin.com/in/lucky-gupta-42b090130/">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://stackoverflow.com/">
-                            <i class="fab fa-stack-overflow"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/CoderLucky-Gupta">
-                            <i class="fab fa-github"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com/lucky.gupta.3914207?mibextid=ZbWKwL">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.quora.com/profile/Lucky-Gupta-103">
-                            <i class="fab fa-quora"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+          </div>
         </div>
-    </header>
+      </header>
     <main>
         <section id="about">
-            <div id="my-image">
+            <div id="my-image" data-aos="fade-up"  
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out">
                 <img
                     src="https://avatars.githubusercontent.com/u/162283581?s=400&u=7507611c000268d33770c1f80b346ceb5f03775e&v=4" />
             </div>
 
-            <div id="about-para">
+            <div id="about-para" data-aos="fade-up"  
+            data-aos-duration="1500"
+            data-aos-easing="ease-in-out">
                 <p>
                     I am a beginner level
                     <span class="text-highlight">iOS and Web Developer and Designer</span>
@@ -92,7 +134,9 @@
 
 
         <section id="skills">
-            <h1 class="section-heading mb75px">
+            <h1 class="section-heading mb75px" data-aos="fade-up"  
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out">
                 <span>
                     <i class="fas fa-chalkboard-teacher fa-fade"></i>
                 </span>
@@ -101,30 +145,42 @@
 
 
 
-            <div class="skills-container">
+            <div class="skills-container" >
                
-                    <div class="outer-div">
+                    <div class="outer-div"  data-aos="fade-up" 
+                    data-delay="200" 
+                    data-aos-duration="1500"
+                    data-aos-easing="ease-in-out">
                         <div class="fifty-percent mb-blue">
                             <div class="skill-name">
                                 <span>C++</span>
                             </div>
                         </div>
                     </div>
-                    <div class="outer-div">
+                    <div class="outer-div" data-aos="fade-up" 
+                    data-delay="200" 
+                    data-aos-duration="1500"
+                    data-aos-easing="ease-in-out">
                         <div class="eighty-percent mb-orange">
                             <div class="skill-name">
                                 <span>HTML</span>
                             </div>
                         </div>
                     </div>
-                    <div class="outer-div">
+                    <div class="outer-div" data-aos="fade-up" 
+                    data-delay="200" 
+                    data-aos-duration="1500"
+                    data-aos-easing="ease-in-out">
                         <div class="eighty-percent mb-light-purple">
                             <div class="skill-name">
                                 <span>CSS</span>
                             </div>
                         </div>
                     </div>
-                    <div class="outer-div">
+                    <div class="outer-div" data-aos="fade-up" 
+                    data-delay="200" 
+                    data-aos-duration="1500"
+                    data-aos-easing="ease-in-out">
                         <div class="fifty-percent mb-teal">
                             <div class="skill-name">
                                 <span>Javascript</span>
@@ -135,7 +191,10 @@
                 
                 
 
-                    <div class="outer-div">
+                    <div class="outer-div" data-aos="fade-up" 
+                    data-delay="200" 
+                    data-aos-duration="1500"
+                    data-aos-easing="ease-in-out">
                         <div class="fifty-percent mb-blue">
                             <div class="skill-name">
                                 <span>NodeJs</span>
@@ -143,7 +202,10 @@
                         </div>
                     </div>
 
-                    <div class="outer-div">
+                    <div class="outer-div" data-aos="fade-up" 
+                    data-delay="200" 
+                    data-aos-duration="1500"
+                    data-aos-easing="ease-in-out">
                         <div class="eighty-percent mb-light-purple">
                             <div class="skill-name">
                                 <span>MongoDB</span>
@@ -160,14 +222,19 @@
         </section>
 
         <section id="experience">
-            <h1 class="section-heading mb75px">
+            <h1 class="section-heading mb75px" data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out">
                 <span>
                     <i class="fas fa-briefcase fa-fade "></i>
                 </span>
                 <span> Work Experience </span>
             </h1>
 
-            <div class="timeline">
+            <div class="timeline" data-aos="fade-up"
+            data-delay="200"  
+            data-aos-duration="1500"
+            data-aos-easing="ease-in-out">
                 <div class="timeline-box">
                     <div class="timeline-container">
                         <div class="timeline-logo">
@@ -243,7 +310,7 @@
                 <div id="timeline-divider">
                     <div class="timeline-traveller">
                         <div>
-                            <i class="fa-solid fa-jet-fighter fa-rotate-90 fa-2xl" style="color: #032e77;"></i>
+                            <i class="fa-solid fa-jet-fighter fa-rotate-90 fa-xl" style="color: #032e77;"></i>
                         </div>
                     </div>
                 </div>
@@ -251,23 +318,28 @@
         </section>
 
         <section id="education">
-            <h1 class="section-heading mb75px">
+            <h1 class="section-heading mb75px" data-aos="fade-up" 
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out">
                 <span>
                     <i class="fas fa-graduation-cap fa-fade"></i>
                 </span>
                 <span> Education </span>
             </h1>
 
-            <div class="timeline">
+            <div class="timeline" data-aos="fade-up"
+            data-delay="200"  
+            data-aos-duration="1500"
+            data-aos-easing="ease-in-out">
                 <div class="timeline-box left">
                     <div class="timeline-container">
                         <div class="timeline-logo">
                             <img
                                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq40hOzVOkmwabKQEUOvRvAkhcnHju7WAxxOh2Geilig&s" />
                         </div>
-                        <h3 class="experience-designation m0 m-blue">CBSE Exam, class 10</h3>
+                        <h3 class="experience-designation m0 m-blue">CBSE, class 10</h3>
                         <h4 class="experience-company-name">AECS, Narora</h4>
-                        <h5 class="experience-duration m0">Feb 2010 - August 2011</h5>
+                        <h5 class="experience-duration m0">Feb 2010 - Aug 2011</h5>
 
                         <p class="experience-description text-justify">
                             All India Secondary School Examination, commonly known as the class 10th board exam, is a
@@ -285,7 +357,7 @@
                                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq40hOzVOkmwabKQEUOvRvAkhcnHju7WAxxOh2Geilig&s" />
                         </div>
                         <h3 class="experience-designation m0 m-blue">
-                            CBSE Exam, class 12
+                            CBSE, class 12
                         </h3>
                         <h4 class="experience-company-name">AECS, Narora</h4>
                         <h5 class="experience-duration m0">Feb 2012 - March 2013</h5>
@@ -303,10 +375,10 @@
                             <img
                                 src="https://seeklogo.com/images/A/amu-aligarh-muslim-university-logo-F582210441-seeklogo.com.png" />
                         </div>
-                        <h3 class="experience-designation m0 m-blue">B.Sc(Hons.) Botany</h3>
-                        <h4 class="experience-company-name">Aligarh Muslim University, AMU</h4>
+                        <h3 class="experience-designation m0 m-blue">B.Sc(Hons.)</h3>
+                        <h4 class="experience-company-name"> AMU</h4>
                         <h5 class="experience-duration m0">
-                            February 2015 - August 2018
+                            Feb 2015-Aug 2018
                         </h5>
 
                         <p class="experience-description text-justify">
@@ -323,10 +395,10 @@
                         <div class="timeline-logo">
                             <img src="https://upload.wikimedia.org/wikipedia/en/f/ff/Amity_University_logo.png" />
                         </div>
-                        <h3 class="experience-designation m0 m-blue">M.Sc (Biotechnology)</h3>
-                        <h4 class="experience-company-name">Amity University, Noida</h4>
+                        <h3 class="experience-designation m0 m-blue">M.Sc (Biotech)</h3>
+                        <h4 class="experience-company-name">Amity, Noida</h4>
                         <h5 class="experience-duration m0">
-                            February 2018 - August 2020
+                            Feb 2018-Aug 2020
                         </h5>
 
                         <p class="experience-description text-justify">
@@ -341,7 +413,7 @@
                 <div id="timeline-divider">
                     <div class="timeline-traveller">
                         <div>
-                            <i class="fa-solid fa-car-side fa-rotate-90 fa-2xl" style="color: #032e77;"></i>
+                            <i class="fa-solid fa-car-side fa-rotate-90 fa-xl" style="color: #032e77;"></i>
                         </div>
                     </div>
                 </div>
@@ -349,7 +421,9 @@
         </section>
 
         <section id="portfolio">
-            <h1 class="section-heading mb75px">
+            <h1 class="section-heading mb75px" data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out">
                 <span>
                     <i class="fa-solid fa-list fa-fade"></i>
                 </span>
@@ -358,10 +432,16 @@
 
 
 
-            <div class="portfolio__container">
+            <div class="portfolio__container" data-aos="fade-up"
+            data-delay="200"  
+            data-aos-duration="1500"
+            data-aos-easing="ease-in-out" >
 
 
-                <div class="image">
+                <div class="image" data-aos="fade-up"
+                data-delay="200"  
+                data-aos-duration="1500"
+                data-aos-easing="ease-in-out">
                     <img class="image__img"
                         src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png"
                         alt="">
@@ -375,7 +455,10 @@
                     </div>
                 </div>
 
-                <div class="image">
+                <div class="image" data-aos="fade-up"
+                data-delay="200"  
+                data-aos-duration="1500"
+                data-aos-easing="ease-in-out">
                     <img class="image__img"
                         src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png"
                         alt="">
@@ -389,7 +472,10 @@
                     </div>
                 </div>
 
-                <div class="image">
+                <div class="image" data-aos="fade-up"
+                data-delay="200"  
+                data-aos-duration="1500"
+                data-aos-easing="ease-in-out">
                     <img class="image__img"
                         src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png"
                         alt="">
@@ -403,7 +489,10 @@
                     </div>
                 </div>
 
-                <div class="image">
+                <div class="image" data-aos="fade-up"
+                data-delay="200"  
+                data-aos-duration="1500"
+                data-aos-easing="ease-in-out">
                     <img class="image__img"
                         src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png" alt="">
                     <div class="image__overlay">
@@ -416,7 +505,10 @@
                     </div>
                 </div>
 
-                <div class="image">
+                <div class="image" data-aos="fade-up"
+                data-delay="200"  
+                data-aos-duration="1500"
+                data-aos-easing="ease-in-out">
                     <img class="image__img"
                         src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png" alt="">
                     <div class="image__overlay">
@@ -429,7 +521,10 @@
                     </div>
                 </div>
 
-                <div class="image">
+                <div class="image" data-aos="fade-up"
+                data-delay="200"  
+                data-aos-duration="1500"
+                data-aos-easing="ease-in-out">
                     <img class="image__img"
                         src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png" alt="">
                     <div class="image__overlay">
@@ -450,15 +545,20 @@
     </main>
 
     <footer>
-        <section id="contact">
-            <h1 class="section-heading mb75px">
+        <section id="contact" >
+            <h1 class="section-heading mb75px" data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out" >
                 <span>
-                    <i class="fa-regular fa-address-card fa-beat fa-2xl" style="color: #ffffff;"></i>
+                    <i class="fa-regular fa-address-card fa-beat " style="color: #ffffff;"></i>
                 </span>
                 <span> Contact </span>
             </h1>
 
-            <div class="container">
+            <div class="container" data-aos="fade-up"
+            data-delay="200"  
+            data-aos-duration="1500"
+            data-aos-easing="ease-in-out">
 
                 <div class="contactForm">
 
@@ -480,12 +580,13 @@
                             <input type="submit" name="" value="SEND MESSAGE">
 
                         </div>
+                       
                     </form>
                 </div>
 
                 <div class="contactInfo">
                     <h3>Get In touch</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. am voluptate a.</p>
+                    <p>C-76/5, Naps Township Narora, Bulandshahr, U.P 203389</p>
 
                     <h3>My Address</h3>
                     <p> <i class="fa-solid fa-location-dot fa-2xs"></i> Delhi,India</p>
@@ -498,7 +599,9 @@
 
 
             </div>
-            <div class="text-center social-icons d-flex">
+            <div class="text-center social-icons d-flex" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
                 <ul class="no-list-style horizontal-list">
                     <li class="bottom-social">
                         <a href="https://www.linkedin.com/in/lucky-gupta-42b090130/">
@@ -533,7 +636,10 @@
             </div>
         </section>
     </footer>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 
 </body>
 
